@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-top: 1px #eee solid;
+  /* border-top: 1px #eee solid; */
   background-color: rgba(200, 200, 200, 0.1);
   z-index: 9999;
 }
@@ -93,8 +93,8 @@
   display: -webkit-flex;
   display: flex;
   box-sizing: border-box;
-  background-color: #efeff4;
-  border-top: 1rpx solid #d7d6dc;
+  background-color: #7E1446;
+  /* border-top: 1rpx solid #d7d6dc; */
   border-bottom: 1rpx solid #d7d6dc;
 }
 
@@ -165,6 +165,6 @@
 .weui-search-bar__cancel-btn {
   margin-left: 10px;
   line-height: 28px;
-  color: #7E1446;
+  color: white;
   white-space: nowrap;
 }

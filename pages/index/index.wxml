@@ -14,11 +14,82 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>  -->
- <view class="background" style="height:200px">
-  <image src="../../images/1.jpg" style="height:200px"/>
+<view class="background">
+  <image style="width:100%" src="../../images/3.png" mode="widthFix"/>
 </view> 
- <view class="background" style="height:100px">
-  <image style="height:100px" src="../../images/2.jpg" />
-</view> 
+<view class="background">
+  <image style="width:100%" src="../../images/1.jpg" mode="widthFix"/>
+</view>
+<view class="desc">
+  <text class="">2018 SPRING</text>
+  <text class="header">Husenji</text>
+  <text> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mi ipsum, vel gravida urna ullamcorper at. Quisque at velit ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget ligula leo. Duis mollis quam sed eros auctor rutrum. Pellentesque vitae dapibus nisi. Nunc ac augue purus.</text>
+</view>
 
+<view class="products-section-2">
+  <view class="product-block-2">
+    <image src="../../images/products/10.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+    <!-- <view class="product-price">
+      外套
+      ¥3999.00
+    </view> -->
+  </view>
+  <view class="product-block-2">
+    <image src="../../images/products/9.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+    <!-- <view class="product-price">
+      外套
+      ¥3999.00
+    </view> -->
+  </view>
+  <view class="product-block-2">
+    <image src="../../images/products/8.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+      <!-- <view class="product-price">
+      外套
+      ¥3999.00
+      </view> -->
+  </view>
+</view>
+
+<view class="desc">
+  <text class=""></text>
+  <text class="header">New Arrivals</text>
+  <text> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mi ipsum, vel gravida urna ullamcorper at. Quisque at velit ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget ligula leo. Duis mollis quam sed eros auctor rutrum. Pellentesque vitae dapibus nisi. Nunc ac augue purus.</text>
+</view>
+
+<view class="products-section-2">
+  <view class="product-block-2">
+    <image src="../../images/6.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+    <!-- <view class="product-price">
+      外套
+      ¥3999.00
+    </view> -->
+  </view>
+  <view class="product-block-2">
+    <image src="../../images/7.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+    <!-- <view class="product-price">
+      外套
+      ¥3999.00
+    </view> -->
+  </view>
+  <view class="product-block-2">
+    <image src="../../images/8.jpg" class="product-img" mode="widthFix" style="width:100%"/>
+      <!-- <view class="product-price">
+      外套
+      ¥3999.00
+      </view> -->
+  </view>
+</view>
+
+<view class="desc">
+  <text class="block"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget ligula leo. Duis mollis quam sed eros auctor rutrum. Pellentesque vitae dapibus nisi. Nunc ac augue purus.</text>
+</view>
+
+<view class="footer">
+  <view class="text">
+    <text>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mi ipsum, vel gravida urna ullamcorper at. Quisque at velit ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget ligula leo. Duis mollis quam sed eros auctor rutrum. Pellentesque vitae dapibus nisi. Nunc ac augue purus.
+    </text>
+  </view>
+  <image class="footer-img" src="../../images/footer.png" mode="widthFix" />
+</view>
 

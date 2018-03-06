@@ -58,10 +58,20 @@
   height: 100%; */
 }
 
-.product-img {
+.product-block:first-child .product-img {
   width: 100%;
-  height: 90%;
+  height: 97.5%;
+  display: block;
   text-align: center;
+  margin:auto;
+}
+
+.product-block:nth-child(n+2) .product-img {
+  width: 95%;
+  height: 95%;
+  display: block;
+  text-align: center;
+  margin:auto;
 }
 
 .product-price{

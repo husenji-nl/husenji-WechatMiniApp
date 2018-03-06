@@ -25,3 +25,98 @@
 
 .background{
 }
+
+.footer{
+  color: #D7D6D3;
+  background-color: #2a2a27;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  font-size:10px;
+}
+
+.footer .text{
+  padding: 0 20px;
+}
+
+.footer .footer-img{
+  width:100%;
+}
+
+.desc text{
+  display: block;
+  text-align: center;
+  margin: 0 70px 10px 70px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  font-size:10px;
+}
+
+.desc text.header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.products-section-2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-auto-rows: 200px; */
+  /* grid-gap: 20px; */
+}
+
+.product-block-2 {
+  display: inline-block;
+  vertical-align:top;
+
+  /* background-color: #ffd8a8; */
+  /* padding: 1px; */
+  color: #d9480f;
+}
+
+
+.product-block-2:first-child {
+  grid-column-start: 1; 
+  grid-column-end: 5; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+   position: relative;
+}
+
+.product-block-2:nth-child(2) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3; 
+  grid-row-end: 5;
+   position: relative;
+}
+
+.product-block-2:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3; 
+  grid-row-end: 5;
+   position: relative;
+}
+
+.product-block-2:first-child .product-img {
+  width: 100%;
+  height: 97.5%;
+  display: block;
+  text-align: center;
+  margin:auto;
+}
+
+.product-block-2:nth-child(n+2) .product-img {
+  width: 95%;
+  height: 95%;
+  display: block;
+  text-align: center;
+  margin:auto;
+}
+
+.product-block-2:nth-child(n+2) .product-price{
+  font-size: 8px;
+  text-align: center;
+}
+
+.desc .block{
+  margin: 20px 70px;
+}

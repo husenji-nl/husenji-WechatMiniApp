@@ -10,7 +10,7 @@ module.exports = {
       // '../../images/swiper/3.jpg',
       // '../../images/swiper/4.jpg',
       '../../images/swiper/5.png',
-      '../../images/swiper/6.png',
+      // '../../images/swiper/6.png',
     ],
   },
 } 
