@@ -1,0 +1,42 @@
+<!-- <block wx:for-items="{{imgUrls}}" wx:key="id">
+    <swiper-item>
+        <image src="{{item}}" class="slideImage" />
+    </swiper-item>
+</block> -->
+<view class="products-section">
+  <view class="product-block">
+    <image src="../../images/products/1.jpg" class="product-img" />
+    <view class="product-price">
+      外套
+      ¥3999.00
+    </view>
+  </view>
+  <view class="product-block">
+    <image src="../../images/products/2.jpg" class="product-img" />
+    <view class="product-price">
+      外套
+      ¥3999.00
+    </view>
+  </view>
+  <view class="product-block">
+    <image src="../../images/products/3.jpg" class="product-img" />
+      <view class="product-price">
+      外套
+      ¥3999.00
+      </view>
+  </view>
+  <view class="product-block">
+    <image src="../../images/products/4.jpg" class="product-img" />
+    <view class="product-price">
+      外套
+      ¥3999.00
+    </view>
+  </view>
+  <view class="product-block">
+    <image src="../../images/products/5.jpg" class="product-img" />
+    <view class="product-price">
+      外套
+      ¥3999.00
+    </view>
+  </view>
+</view>

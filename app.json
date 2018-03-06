@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#464a56",
+    "selectedColor": "#6595e9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab/ic_nav_main_home.png",
+        "selectedIconPath": "images/tab/ic_nav_main_home_press.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "分类",
+        "iconPath": "images/tab/ic_nav_main_category.png",
+        "selectedIconPath": "images/tab/ic_nav_main_category_press.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车",
+        "textStyle": "light",
+        "iconPath": "images/tab/ic_nav_main_cart.png",
+        "selectedIconPath": "images/tab/ic_nav_main_cart_press.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/tab/ic_nav_main_mine.png",
+        "selectedIconPath": "images/tab/ic_nav_main_mine_press.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7E1446",
+    "navigationBarTitleText": "花笙记",
+    "navigationBarTextStyle":"white"
+  }
+}
